@@ -60,4 +60,52 @@ const PlugConnect = ({
   timeout = 120000,
   host,
   onConnectCallback,
-  de
+  debug = true,
+}: {
+  dark?: boolean;
+  title?: string;
+  host?: string;
+  whitelist?: string[];
+  timeout?: number;
+  onConnectCallback: (...args: any[]) => any;
+  debug?: boolean;
+}) => {
+  const handleConnect = async () => {
+    if (!(window as any).ic?.plug) {
+      if (!isMobile()) {
+        window.open('https://plugwallet.ooo/', '_blank');
+        return;
+      }
+      const clientRPC = new WalletConnectRPC({ window, debug });
+
+      const plugProvider = new Provider(clientRPC);
+
+      const ic = (window as any).ic || {};
+      (window as any).ic = {
+        ...ic,
+        plug: plugProvider,
+      };
+    }
+    // @ts-ignore
+    const connected = await (window as any)?.ic?.plug?.requestConnect({
+      whitelist,
+      host,
+      timeout,
+    });
+
+    if (!connected) return;
+
+    onConnectCallback(connected);
+  };
+
+  return (
+    <Button onClick={handleConnect} dark={dark}>
+      <div>
+        <img src={dark ? plugDark : plugLight} alt="Plug logo" />
+        <span>{title}</span>
+      </div>
+    </Button>
+  );
+};
+
+export default PlugConnect;
