@@ -30,4 +30,12 @@
 <stop stop-color="#FA51D3"/>
 <stop offset="0.958774" stop-color="#FA51D3" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint5_linear" x1="6.74918" y1="21.7089"
+<linearGradient id="paint5_linear" x1="6.74918" y1="21.7089" x2="10.1797" y2="13.233" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE700"/>
+<stop offset="1" stop-color="#FFE700" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="18" height="27" fill="white"/>
+</clipPath>
+</defs>
+</svg>
