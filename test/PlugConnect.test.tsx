@@ -14,4 +14,9 @@ describe('PlugConnect', () => {
       title="Connect to Plug"
       whitelist={[
         'canister-1',
-        'cani
+        'canister-2'
+      ]}
+    />, div)
+    ReactDOM.unmountComponentAtNode(div);
+  });
+});
