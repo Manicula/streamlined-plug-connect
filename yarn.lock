@@ -1097,4 +1097,32 @@
   integrity sha512-6Z3Po85sfxRGachLULUhOmvAaOo7xCvqGQtxINai2mEGPFm6pQ4z5QInFnUrRpfoSV60BnjyF5F3c+15fxFV1g==
   dependencies:
     "@babel/code-frame" "^7.14.5"
-    "@babel/parser" "^7.14.5
+    "@babel/parser" "^7.14.5"
+    "@babel/types" "^7.14.5"
+
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.1.6", "@babel/traverse@^7.11.5", "@babel/traverse@^7.12.11", "@babel/traverse@^7.12.9", "@babel/traverse@^7.13.0", "@babel/traverse@^7.14.5", "@babel/traverse@^7.14.8", "@babel/traverse@^7.7.0":
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.14.8.tgz#c0253f02677c5de1a8ff9df6b0aacbec7da1a8ce"
+  integrity sha512-kexHhzCljJcFNn1KYAQ6A5wxMRzq9ebYpEDV4+WdNyr3i7O44tanbDOR/xjiG2F3sllan+LgwK+7OMk0EmydHg==
+  dependencies:
+    "@babel/code-frame" "^7.14.5"
+    "@babel/generator" "^7.14.8"
+    "@babel/helper-function-name" "^7.14.5"
+    "@babel/helper-hoist-variables" "^7.14.5"
+    "@babel/helper-split-export-declaration" "^7.14.5"
+    "@babel/parser" "^7.14.8"
+    "@babel/types" "^7.14.8"
+    debug "^4.1.0"
+    globals "^11.1.0"
+
+"@babel/types@^7.0.0", "@babel/types@^7.12.11", "@babel/types@^7.12.6", "@babel/types@^7.12.7", "@babel/types@^7.14.5", "@babel/types@^7.14.8", "@babel/types@^7.2.0", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.8.tgz#38109de8fcadc06415fbd9b74df0065d4d41c728"
+  integrity sha512-iob4soQa7dZw8nodR/KlOQkPh9S4I8RwCxwRIFuiMRYjOzH/KJzdUfDgz6cGi5dDaclXF4P2PAhCdrBJNIg68Q==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.14.8"
+    to-fast-properties "^2.0.0"
+
+"@base2/pretty-print-object@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@base2/pretty-print-object/-/pretty-print-ob
