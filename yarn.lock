@@ -2359,4 +2359,47 @@
     globby "^11.0.2"
     ip "^1.1.5"
     node-fetch "^2.6.1"
-    pretty-
+    pretty-hrtime "^1.0.3"
+    prompts "^2.4.0"
+    regenerator-runtime "^0.13.7"
+    serve-favicon "^2.5.0"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+    webpack "4"
+
+"@storybook/core@6.3.6":
+  version "6.3.6"
+  resolved "https://registry.yarnpkg.com/@storybook/core/-/core-6.3.6.tgz#604419d346433103675901b3736bfa1ed9bc534f"
+  integrity sha512-y71VvVEbqCpG28fDBnfNg3RnUPnicwFYq9yuoFVRF0LYcJCy5cYhkIfW3JG8mN2m0P+LzH80mt2Rj6xlSXrkdQ==
+  dependencies:
+    "@storybook/core-client" "6.3.6"
+    "@storybook/core-server" "6.3.6"
+
+"@storybook/csf-tools@6.3.6":
+  version "6.3.6"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.3.6.tgz#603d9e832f946998b75ff8368fe862375d6cb52c"
+  integrity sha512-MQevelkEUVNCSjKMXLNc/G8q/BB5babPnSeI0IcJq4k+kLUSHtviimLNpPowMgGJBPx/y9VihH8N7vdJUWVj9w==
+  dependencies:
+    "@babel/generator" "^7.12.11"
+    "@babel/parser" "^7.12.11"
+    "@babel/plugin-transform-react-jsx" "^7.12.12"
+    "@babel/preset-env" "^7.12.11"
+    "@babel/traverse" "^7.12.11"
+    "@babel/types" "^7.12.11"
+    "@mdx-js/mdx" "^1.6.22"
+    "@storybook/csf" "^0.0.1"
+    core-js "^3.8.2"
+    fs-extra "^9.0.1"
+    js-string-escape "^1.0.1"
+    lodash "^4.17.20"
+    prettier "~2.2.1"
+    regenerator-runtime "^0.13.7"
+
+"@storybook/csf@0.0.1", "@storybook/csf@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/csf/-/csf-0.0.1.tgz#95901507dc02f0bc6f9ac8ee1983e2fc5bb98ce6"
+  integrity sha512-USTLkZze5gkel8MYCujSRBVIrUQ3YPBrLOx7GNk/0wttvVtlzWXAq9eLbQ4p/NicGxP+3T7KPEMVV//g+yubpw==
+  dependencies:
+    lodash "^4.17.15"
+
+"@storybook/manag
