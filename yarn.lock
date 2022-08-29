@@ -2809,4 +2809,35 @@
 
 "@types/estree@0.0.39":
   version "0.0.39"
-  resolved "
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
+  integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
+
+"@types/filesystem@*":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@types/filesystem/-/filesystem-0.0.32.tgz#307df7cc084a2293c3c1a31151b178063e0a8edf"
+  integrity sha512-Yuf4jR5YYMR2DVgwuCiP11s0xuVRyPKmz8vo6HBY3CGdeMj8af93CFZX+T82+VD1+UqHOxTq31lO7MI7lepBtQ==
+  dependencies:
+    "@types/filewriter" "*"
+
+"@types/filewriter@*":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/filewriter/-/filewriter-0.0.29.tgz#a48795ecadf957f6c0d10e0c34af86c098fa5bee"
+  integrity sha512-BsPXH/irW0ht0Ji6iw/jJaK8Lj3FJemon2gvEqHKpCdDCeemHa+rI3WBGq5z7cDMZgoLjY40oninGxqk+8NzNQ==
+
+"@types/glob-base@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@types/glob-base/-/glob-base-0.3.0.tgz#a581d688347e10e50dd7c17d6f2880a10354319d"
+  integrity sha1-pYHWiDR+EOUN18F9byiAoQNUMZ0=
+
+"@types/glob@*", "@types/glob@^7.1.1":
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.4.tgz#ea59e21d2ee5c517914cb4bc8e4153b99e566672"
+  integrity sha512-w+LsMxKyYQm347Otw+IfBXOv9UWVjpHpCDdbBMt8Kz/xbvCYNjP+0qPh91Km3iKfSRLBB0P7fAMf0KHrPu+MyA==
+  dependencies:
+    "@types/minimatch" "*"
+    "@types/node" "*"
+
+"@types/graceful-fs@^4.1.2":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
+  integrity sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7C
