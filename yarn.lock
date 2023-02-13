@@ -8515,4 +8515,50 @@ jest-changed-files@^25.5.0:
 
 jest-cli@^25.5.4:
   version "25.5.4"
-  resolved "https://regist
+  resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-25.5.4.tgz#b9f1a84d1301a92c5c217684cb79840831db9f0d"
+  integrity sha512-rG8uJkIiOUpnREh1768/N3n27Cm+xPFkSNFO91tgg+8o2rXeVLStz+vkXkGr4UtzH6t1SNbjwoiswd7p4AhHTw==
+  dependencies:
+    "@jest/core" "^25.5.4"
+    "@jest/test-result" "^25.5.0"
+    "@jest/types" "^25.5.0"
+    chalk "^3.0.0"
+    exit "^0.1.2"
+    graceful-fs "^4.2.4"
+    import-local "^3.0.2"
+    is-ci "^2.0.0"
+    jest-config "^25.5.4"
+    jest-util "^25.5.0"
+    jest-validate "^25.5.0"
+    prompts "^2.0.1"
+    realpath-native "^2.0.0"
+    yargs "^15.3.1"
+
+jest-config@^25.5.4:
+  version "25.5.4"
+  resolved "https://registry.yarnpkg.com/jest-config/-/jest-config-25.5.4.tgz#38e2057b3f976ef7309b2b2c8dcd2a708a67f02c"
+  integrity sha512-SZwR91SwcdK6bz7Gco8qL7YY2sx8tFJYzvg216DLihTWf+LKY/DoJXpM9nTzYakSyfblbqeU48p/p7Jzy05Atg==
+  dependencies:
+    "@babel/core" "^7.1.0"
+    "@jest/test-sequencer" "^25.5.4"
+    "@jest/types" "^25.5.0"
+    babel-jest "^25.5.1"
+    chalk "^3.0.0"
+    deepmerge "^4.2.2"
+    glob "^7.1.1"
+    graceful-fs "^4.2.4"
+    jest-environment-jsdom "^25.5.0"
+    jest-environment-node "^25.5.0"
+    jest-get-type "^25.2.6"
+    jest-jasmine2 "^25.5.4"
+    jest-regex-util "^25.2.6"
+    jest-resolve "^25.5.1"
+    jest-util "^25.5.0"
+    jest-validate "^25.5.0"
+    micromatch "^4.0.2"
+    pretty-format "^25.5.0"
+    realpath-native "^2.0.0"
+
+jest-diff@^25.2.1, jest-diff@^25.5.0:
+  version "25.5.0"
+  resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-25.5.0.tgz#1dd26ed64f96667c068cef026b677dfa01afcfa9"
+  integrity sha512-z1kygetuPiREYdNIumRpAHY6RXi
